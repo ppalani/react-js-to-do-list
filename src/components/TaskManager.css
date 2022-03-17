@@ -1,0 +1,26 @@
+.taskmanager {
+  display: grid;
+  background: skyblue;
+  margin: 5%;
+  height: auto;
+  border: 8px solid wheat;
+  border-radius: 12px 8px 5px;
+  grid-template-areas: "header" "content" "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1fr 0.1fr;
+  grid-gap: 5px;
+  background: lightslategray;
+}
+
+.header {
+  grid-area: header;
+  font-size: 26px;
+  text-align: center;
+ 
+}
+.task {
+  grid-area: content;
+}
+.taskform {
+  grid-area: footer;
+}

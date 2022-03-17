@@ -1,0 +1,55 @@
+.taskform {
+  border-top: 40px;
+  background: #303030;
+  color: white;
+  font-size: 18px;
+  border-radius: 4px 20px;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 10px;
+  width: auto;
+  display: grid;
+  grid-template-columns: 0.5fr 10fr;
+}
+
+.taskform:hover {
+  background: #505050;
+}
+
+.ctheader {
+  background: #303030;
+  color: white;
+
+  font-size: 18px;
+  border-radius: 4px 20px;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 10px;
+  width: auto;
+  display: grid;
+}
+.ctheader:hover {
+  background: #505050;
+}
+
+.plusclass {
+  height: 25px;
+  width: 25px;
+  background-color: rgba(196, 123, 14, 0.678);
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-align: center;
+}
+.plusclass:hover {
+  background-color: rgba(0, 0, 0, 0.678);
+}
+.ipclass {
+  outline: none !important;
+  border: 0px solid red;
+
+  background: transparent;
+  border: transparent;
+  font-size: 18px;
+}
