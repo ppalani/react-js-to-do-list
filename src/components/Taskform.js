@@ -27,7 +27,7 @@ const Taskform = (props) => {
   return (
     <form onSubmit={taskSubmithandler}>
       <div className="taskform">
-        <lable>+</lable>
+      <div className="plusclass">+</div>
         <input
           className="ipclass"
           type="text"

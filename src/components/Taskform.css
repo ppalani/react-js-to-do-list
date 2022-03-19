@@ -39,8 +39,8 @@
   border-radius: 50%;
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
-  text-align: center;
+  display: grid;
+  place-items: center;
 }
 .plusclass:hover {
   background-color: rgba(0, 0, 0, 0.678);
